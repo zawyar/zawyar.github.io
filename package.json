@@ -6,7 +6,7 @@
   "homepage": "https://zawyar.github.io",
   "license": "MIT",
   "scripts": {
-    "dev": "gatsby develop -o",
+    "dev": "GATSBY_CPU_COUNT=1 gatsby develop -o",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",

@@ -76,12 +76,12 @@ const Hero = (props) => (
             smartBackspace
             style={typedStyle}
             strings={[
-              'I am a Software Engineer',
-              'I am a DevOps Engineer',
-              'I am a Generalist',
-              'I am a Full-Stack Developer',
+              'Software Engineer',
+              'DevOps Engineer',
+              'Full-Stack Developer',
+              'Generalist',
               '. . .^1000',
-              'I like to play with computers<span class="accent-text">.</span>',
+              'I like computers<span class="accent-text">.</span>',
               ]}
             />
         </Subtitle>

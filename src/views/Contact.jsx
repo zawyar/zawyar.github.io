@@ -8,7 +8,7 @@ import { Title } from 'elements/Titles'
 // Components
 import PageLink from 'components/PageLink';
 import Cube from 'components/Cube'
-
+import config from 'config/website'
 
 const ContactTitle = styled(Title)`
   font-size: 4.5rem;
@@ -37,18 +37,18 @@ const Contact = ({ id }) => (
         {' '}or find me on other platforms:{' '}
         <a
           className='gradient-text-blue text-white font-semibold'
-          href='https://github.com/tterb'
+          href={config.author.github}
           aria-label='GitHub'
           target='_blank'
           rel='noopener noreferrer'
         >GitHub</a> &{' '}
         <a
           className='gradient-text-blue text-white font-semibold'
-          href='https://www.dribbble.com/tterb/'
-          aria-label='Dribbble'
+          href={config.author.linkedIn}
+          aria-label='LinkedIn'
           target='_blank'
           rel='noopener noreferrer'
-        >Dribbble</a>
+        >LinkedIn</a>
       </ContactText>
     </Inner>
   </Content>

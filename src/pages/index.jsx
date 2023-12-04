@@ -15,7 +15,6 @@ const Index = ({ data, ...props }) => {
   const windowSize = useWindowSize()
   const avatar = data.avatar.childImageSharp.gatsbyImageData
   const projects = data.projects.nodes || []
-  console.log(projects)
   return (
     <Layout
       navLogo={false}

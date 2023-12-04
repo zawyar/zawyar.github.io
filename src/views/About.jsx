@@ -34,11 +34,11 @@ const About = ({ id, avatar, isMobile }) => (
             style={avatarStyle}
           />
           <span className='text-white text-xl font-medium leading-tighter pt-8 hidden md:block md:pt-0 md:pl-10 lg:pl-12 lg:text-2xl xl:text-3xl'>
-          Tech-savvy, self-driven Software Engineer with diverse skills, DevOps expertise, and a commitment to excellence. Yes, this is what one looks like in the wild.
+          Tech-savvy, self-driven Software Engineer who can do it all.
           </span>
         </div>
         <p className='text-gray-700 text-lg lg:text-xl font-sans leading-normal pt-8 md:pt-6 lg:pt-8'>
-        I'm an experienced Software Engineer with a robust background in Full-Stack development, AWS/GCP Infrastructure management, deployment and monitoring. Proven track record in optimizing CI/CD pipelines, reducing deployment times, and leading application performance improvements. I've been writing a lot of code since age 10, most of it I wouldn't dare show anyone.
+        I'm an experienced Software Engineer with a robust background  in Full-Stack development, AWS/GCP Infrastructure management, deployment and monitoring. Proven track record in optimizing CI/CD pipelines, reducing deployment times, and leading application performance improvements.
         </p>
       </Inner>
     </Content>
