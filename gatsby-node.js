@@ -11,16 +11,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === 'Mdx') {
     const fileNode = getNode(node.parent)
 
-    // Add 'slug' field
-    // if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')
-    //   && Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')) {
-    //   // If the frontmatter contains a "slug", use it
-    //   slug = node.frontmatter.slug
-    // } else if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')
-    //   && Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')) {
-    //   // Otherwise use the title for the slug
-    //   slug = `/${_.kebabCase(node.frontmatter.title)}`
-    // }
 
     if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
       // Add 'slug' field
